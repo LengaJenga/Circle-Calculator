@@ -1,10 +1,5 @@
 package myCircle;
 
-/*
- * Matthew L, Kayla, Lakhena
- * 5/2/2016
-*/
-
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
