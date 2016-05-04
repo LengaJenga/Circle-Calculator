@@ -77,7 +77,6 @@ public class Circle {
 			if (this.diameter == 0 && this.radius == 0 && this.circumference == 0){
 				
 				this.radius = (Math.sqrt(this.area/Math.PI));
-				this.area = (Math.PI*(Math.pow(this.radius, 2)));
 				
 			}
 			
