@@ -12,29 +12,6 @@ public class Circle {
 		private Double circumference;
 		private Double area;
 		
-		/*
-		public circle(double diameter){
-			
-			this.diameter = diameter;
-			
-		}
-		
-		public circle(double diameter, double radius){
-			
-			this.diameter = diameter;
-			this.radius = radius;
-			
-		}
-		
-		public circle(double diameter, double radius, double circumference){
-			
-			this.diameter = diameter;
-			this.radius = radius;
-			this.circumference = circumference;
-			
-		}
-		*/
-		
 		public circle(double diameter, double radius, double circumference, double area){
 			
 			this.diameter = diameter;
@@ -77,6 +54,7 @@ public class Circle {
 			
 			calculate();
 			return this.radius;
+			
 		}
 		
 		public Double getCircumference(){
@@ -106,7 +84,6 @@ public class Circle {
 			if (this.radius == 0){
 				
 				this.radius = (this.diameter/2);
-				//this.area = (Math.PI*(Math.pow(this.radius, 2)));
 				
 			}
 			
@@ -114,7 +91,6 @@ public class Circle {
 				
 				this.diameter = (this.radius*2);
 				this.radius = (this.diameter/2);
-				//this.area = (Math.PI*(Math.pow(this.radius, 2)));
 				
 			}
 			
